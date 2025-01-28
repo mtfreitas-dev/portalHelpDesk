@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(107, 28, 90);
+}
+
+.form{
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.data{
+    padding: 20px;
+}
+.button{
+    margin: 20px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: rgb(107, 28, 90);
+    color: white;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.input{
+    border: none; /* Remove todas as bordas */
+      border-bottom: 2px solid #000; /* Adiciona apenas a linha inferior */
+      outline: none; /* Remove o contorno ao focar */
+      padding: 5px; /* Adiciona espaço interno */
+      width: 200px; /* Define a largura */
+      font-size: 16px; /* Tamanho da fonte */
+}

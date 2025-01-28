@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/4939493.png" type="image/png">
+    <link rel="stylesheet" href="index.css">
+    <title>Portal de Atendimento</title>
+    
+</head>
+<body>
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00Dbm00000IPAzV" method="POST" class="form">
+        <h1>Create New Case</h1>
+
+        <input type=hidden name="orgid" value="00Dbm00000IPAzV">
+        <input type=hidden name="retURL" value="http://">
+        
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+        <!--  these lines if you wish to test in debug mode.                          -->
+        <!--  <input type="hidden" name="debug" value=1>                              -->
+        <!--  <input type="hidden" name="debugEmail"                                  -->
+        <!--  value="mtfreitas.helpdesk@outlook.com">                                 -->
+        <!--  ----------------------------------------------------------------------  -->
+        
+        <div class="data"><label for="name">Contact Name</label> <br><input  id="name" maxlength="80" name="name" size="20" type="text" class="input"/></div>
+        
+        <div class="data "><label for="email">Email</label><br><input  id="email" maxlength="80" name="email" size="20" type="text" class="input"/></div>
+        
+        <div><label for="phone">Phone</label> <br><input  id="phone" maxlength="40" name="phone" size="20" type="text" class="input"/></div>
+        
+        <div class="data"><label for="subject">Subject</label><br><input  id="subject" maxlength="80" name="subject" size="20" type="text" class="input"/></div>
+        
+        <div class="data"><label for="description">Description</label><br><textarea name="description" class="input"></textarea><br></div>
+        
+        <div><input type="submit" name="submit"  class="button"></div>
+        
+        </form>        
+</body>
+</html>
