@@ -18,12 +18,12 @@
             <h1 class="text-center">Create New Case</h1>
             <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00Dbm00000IPAzV" method="POST">
 
-                <input type=hidden name="orgid" value="00Dbm00000IPAzV">
-                <input type=hidden name="retURL" value="https://mtfreitas-dev.github.io/portalHelpDesk/agredecimento.html">
+                <input type="hidden" name="orgid" value="00Dbm00000IPAzV">
+                <input type="hidden" name="retURL" value="https://mtfreitas-dev.github.io/portalHelpDesk/agredecimento.html">
                 
                 <div class="mb-3">
                     <label for="name" class="form-label">Contact Name</label>
-                    <input id="name" name="name" required type="text" class="form-control" maxlength="80" >
+                    <input id="name" name="name" type="text" class="form-control" maxlength="80" required>
                 </div>
                 
                 <div class="mb-3">
@@ -33,27 +33,27 @@
                 
                 <div class="mb-3">
                     <label for="phone" class="form-label">Phone</label>
-                    <input id="phone" name="phone" type="text" class="form-control" maxlength="40">
+                    <input id="phone" name="phone" type="text" class="form-control" maxlength="40" required>
                 </div>
                 
                 <div class="mb-3">
                     <label for="subject" class="form-label">Subject</label>
-                    <input id="subject" name="subject" type="text" class="form-control" maxlength="80">
+                    <input id="subject" name="subject" type="text" class="form-control" maxlength="80" required>
                 </div>
                 
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>
-                    <textarea name="description" class="form-control"></textarea>
+                    <textarea id="description" name="description" class="form-control" required></textarea>
                 </div>
                 
                 <div class="mb-3">
                     <label for="company" class="form-label">Company (CNPJ)</label>
-                    <input id="company" name="company" type="text" class="form-control" maxlength="80">
+                    <input id="company" name="company" type="text" class="form-control" maxlength="80" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="00Nbm00000MCMxl" class="form-label">Urgency</label>
-                    <select id="00Nbm00000MCMxl" name="00Nbm00000MCMxl" class="form-select">
+                    <select id="00Nbm00000MCMxl" name="00Nbm00000MCMxl" class="form-select" required>
                         <option value="">--None--</option>
                         <option value="Average">Average</option>
                         <option value="High">High</option>
